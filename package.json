@@ -1,0 +1,21 @@
+{
+  "name": "max-me",
+  "version": "1.0.0",
+  "description": "generate max me image",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-text-wrapper": "^0.10.2",
+    "canvas-to-image": "^2.2.0"
+  },
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
